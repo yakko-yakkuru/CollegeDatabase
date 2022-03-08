@@ -1,0 +1,27 @@
+<HTML>
+	<HEAD>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<TITLE>検索ページ</TITLE>
+	</HEAD>
+	<BODY>
+	<div align="right">
+		<a href="mypage.html"><b>MYPAGE</b></a>
+	</div>
+	<div align="center">
+	<H1 class="br3">検索フォーム</H1>
+		<p><font size="1"><b>検索したいワードを入力し送信ボタンを押してください</b></font></p>
+		<form method="POST" action="/webapp/SearchServlet">
+		<p class="br3">
+			検索条件：
+			<input type="TEXT" name="title">
+			<input type="image" src="loupe.jpg" width="20" height="20" value="送信">
+		</p>
+		</form>
+
+		<p class="br">
+		<a class="button" href="index.html"><b>LOGOUT</b></a>
+		</p>
+	</div>
+	</BODY>
+</HTML>

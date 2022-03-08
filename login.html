@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD> 
+<META http-equiv="Content-Type" content="text/html; charset=SHIFT-JIS">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>Login Page</TITLE>
+<link href="./style.css" rel="stylesheet" type="text/css">
+<style>
+
+</style>
+</HEAD>
+<BODY>
+<div align ="center">
+<h1>ログイン画面</h1>
+
+
+<p class ="br3">ユーザー新規登録</p>
+<FORM ACTION="UserUpdateServlet">
+<table class="type01">
+	<tr>
+		<th scope="row">UserID</th>
+		<td><input type="text" name="id"></td>
+	</tr>
+	<tr>
+		<th scope="row">Password</th>
+		<td><input type="text" name="pass"></td>
+	</tr>
+</table>
+<input class = "br4" type="submit" value="新規登録">
+</form>
+
+<p class="br3"> ユーザーログイン</p>
+
+<FORM ACTION="UserSelectServlet">
+<table class="type01">
+	<tr>
+		<th scope="row">UserID</th>
+		<td><input type="text" name="id"></td>
+	</tr>
+	<tr>
+		<th scope="row">Password</th>
+		<td><input type="text" name="pass"></td>
+	</tr>
+</table>
+
+<input class = "br4" type="submit" value="ログイン">
+</form>
+
+</div>
+
+</BODY>
+</HTML>
